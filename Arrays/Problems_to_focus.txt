@@ -1,0 +1,121 @@
+Arrays DSA Questions (Easy -> Medium Order):
+
+
+Easy Level:
+
+* Contains Duplicate
+	- LeetCode #217
+	- Uses Hashing/Set.
+	- Detects duplicate elements.
+	- T.C is O(n).
+
+* Two Sum
+	- LeetCode #1
+	- Uses Hashmap.
+	- Finds two numbers with target sum.
+	- T.C is O(n).
+
+* Best Time to Buy and Sell Stock
+	- LeetCode #121
+	- Uses Greedy approach.
+	- Tracks minimum buying price.
+	- T.C is O(n).
+
+* Maximum Subarray
+	- LeetCode #53
+	- Uses Kadane's Algorithm.
+	- Finds maximum subarray sum.
+	- T.C is O(n).
+
+* Move Zeroes
+	- LeetCode #283
+	- Uses Two Pointer Technique.
+	- Moves zeroes to end.
+	- T.C is O(n).
+
+* Majority Element
+	- LeetCode #169
+	- Uses Boyer-Moore Voting Algorithm.
+	- Finds element occurring more than n/2 times.
+	- T.C is O(n).
+
+* Product of Array Except Self
+	- LeetCode #238
+	- Uses Prefix and Suffix Product.
+	- Division not allowed.
+	- T.C is O(n).
+
+
+Medium Level:
+
+* Subarray Sum Equals K
+	- LeetCode #560
+	- Uses Prefix Sum + Hashmap.
+	- Counts subarrays with sum k.
+	- T.C is O(n).
+
+* 3Sum
+	- LeetCode #15
+	- Uses Sorting + Two Pointers.
+	- Finds triplets with zero sum.
+	- T.C is O(n^2).
+
+* Container With Most Water
+	- LeetCode #11
+	- Uses Two Pointer Technique.
+	- Maximizes water container area.
+	- T.C is O(n).
+
+* Sort Colors
+	- LeetCode #75
+	- Uses Dutch National Flag Algorithm.
+	- Sorts 0s, 1s and 2s.
+	- T.C is O(n).
+
+* Longest Consecutive Sequence
+	- LeetCode #128
+	- Uses HashSet.
+	- Finds longest consecutive sequence.
+	- T.C is O(n).
+
+* Merge Intervals
+	- LeetCode #56
+	- Uses Sorting + Interval Merging.
+	- Merges overlapping intervals.
+	- T.C is O(n log n).
+
+* Maximum Product Subarray
+	- LeetCode #152
+	- Tracks current maximum and minimum.
+	- Handles negative numbers.
+	- T.C is O(n).
+
+* Search in Rotated Sorted Array
+	- LeetCode #33
+	- Uses Modified Binary Search.
+	- Searches in rotated sorted array.
+	- T.C is O(log n).
+
+* Find Minimum in Rotated Sorted Array
+	- LeetCode #153
+	- Uses Binary Search.
+	- Finds minimum element.
+	- T.C is O(log n).
+
+* Set Matrix Zeroes
+	- LeetCode #73
+	- Uses Matrix Traversal.
+	- Converts row and column to zero.
+	- T.C is O(m * n).
+
+* Spiral Matrix
+	- LeetCode #54
+	- Uses Boundary Traversal.
+	- Prints matrix in spiral order.
+	- T.C is O(m * n).
+
+* Rotate Image
+	- LeetCode #48
+	- Uses Matrix Transpose + Reverse.
+	- Rotates matrix by 90 degrees.
+	- T.C is O(n^2).
