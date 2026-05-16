@@ -1,0 +1,176 @@
+Introduction to Arrays:
+
+* Arrays are linear data structures used to store multiple elements.
+* Arrays in Python are dynamic in size.
+* Indexing starts from 0.
+* Last index is length - 1.
+* Arrays are mutable.
+* Arrays allow duplicate values.
+* Arrays maintain insertion order.
+* Arrays support random access.
+* Access T.C is O(1).
+
+
+Array Functions:
+
+* append(value)
+	- Adds element at the end.
+	- T.C is O(1) amortized.
+
+* insert(index, value)
+	- Inserts element at particular index.
+	- Elements shift towards right.
+	- T.C is O(n).
+
+* remove(value)
+	- Removes first occurrence of value.
+	- Removes by value, not index.
+	- T.C is O(n).
+
+* pop()
+	- Removes last element.
+	- Returns removed element.
+	- T.C is O(1).
+
+* pop(index)
+	- Removes element from given index.
+	- Elements shift after deletion.
+	- T.C is O(n).
+
+* clear()
+	- Removes all elements from array.
+	- Makes array empty.
+	- T.C is O(n).
+
+* index(value)
+	- Returns first occurrence index of value.
+	- T.C is O(n).
+
+* count(value)
+	- Counts occurrences of value.
+	- T.C is O(n).
+
+* sort()
+	- Sorts array in ascending order.
+	- Modifies original array.
+	- T.C is O(n log n).
+
+* reverse()
+	- Reverses the array.
+	- Modifies original array.
+	- T.C is O(n).
+
+* copy()
+	- Creates shallow copy of array.
+	- T.C is O(n).
+
+
+Array Operations:
+
+* Traversal
+	- Visiting every element one by one.
+	- T.C is O(n).
+
+* Accessing
+	- Accessing element using index.
+	- T.C is O(1).
+
+* Searching
+	- Finding an element in array.
+	- Linear Search T.C is O(n).
+
+* Binary Search
+	- Works only on sorted arrays.
+	- Divides search space into half.
+	- T.C is O(log n).
+
+* Insertion at End
+	- Fastest insertion operation.
+	- T.C is O(1).
+
+* Insertion at Beginning/Middle
+	- Requires shifting elements.
+	- T.C is O(n).
+
+* Deletion at End
+	- Fast deletion operation.
+	- T.C is O(1).
+
+* Deletion at Beginning/Middle
+	- Requires shifting elements.
+	- T.C is O(n).
+
+
+Important Array Concepts:
+
+* Indexing
+	- Accessing elements using positions.
+
+* Negative Indexing
+	- -1 represents last element.
+	- -2 represents second last element.
+
+* Slicing
+	- Extracting part of array.
+	- Used for subarrays.
+
+* Mutable
+	- Elements can be modified after creation.
+
+* Ordered
+	- Elements maintain insertion order.
+
+
+Important DSA Patterns:
+
+* Two Pointer Technique
+	- Uses two indexes simultaneously.
+	- Common in sorted arrays.
+	- T.C usually O(n).
+
+* Sliding Window
+	- Used for subarray problems.
+	- Maintains moving window/range.
+	- T.C usually O(n).
+
+* Prefix Sum
+	- Stores cumulative sums.
+	- Used for range sum queries.
+	- Query T.C becomes O(1).
+
+* Hashing with Arrays
+	- Uses dictionary/hashmap with arrays.
+	- Used for frequency counting and lookup.
+
+* Kadane's Algorithm
+	- Finds maximum subarray sum.
+	- T.C is O(n).
+
+
+Common Array Problems:
+
+* Reverse Array
+* Rotate Array
+* Move Zeroes
+* Two Sum
+* Maximum Subarray Sum
+* Merge Sorted Arrays
+* Find Duplicates
+* Stock Buy and Sell
+* Subarray Sum
+* Product of Array Except Self
+
+
+Advantages of Arrays:
+
+* Fast random access.
+* Easy traversal.
+* Cache friendly.
+* Efficient for ordered data.
+
+
+Disadvantages of Arrays:
+
+* Insertion in middle is slow.
+* Deletion in middle is slow.
+* Searching unsorted array is slow.
